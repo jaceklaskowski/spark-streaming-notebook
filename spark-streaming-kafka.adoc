@@ -65,17 +65,17 @@ If `zookeeper.connect` or `group.id` parameters are not set, they are added with
 In this mode, you will only see jobs submitted (in the *Jobs* tab in link:spark-webui.adoc[web UI]) when a message comes in.
 
 .Complete Jobs in web UI for batch time 22:17:15
-image::../images/spark-streaming-kafka-webui-jobs.png[align="center"]
+image::images/spark-streaming-kafka-webui-jobs.png[align="center"]
 
 It corresponds to *Input size* larger than `0` in the *Streaming* tab in the web UI.
 
 .Completed Batch in web UI for batch time 22:17:15
-image::../images/spark-streaming-kafka-webui-streaming.png[align="center"]
+image::images/spark-streaming-kafka-webui-streaming.png[align="center"]
 
 Click the link in Completed Jobs for a batch and you see the details.
 
 .Details of batch in web UI for batch time 22:17:15
-image::../images/spark-streaming-kafka-webui-details-batch.png[align="center"]
+image::images/spark-streaming-kafka-webui-details-batch.png[align="center"]
 
 === [[spark-streaming-kafka-0-10]] `spark-streaming-kafka-0-10` Library Dependency
 
